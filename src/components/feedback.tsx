@@ -26,7 +26,7 @@ export default function FeebackForm(props: FeedbackProps) {
             const response = await fetch("https://docs.google.com/forms/u/0/d/e/1FAIpQLSeBjvmUk-VMTykn3Ynf7zsKLw8GkQhk6pay_6KBLQ6WuXx0dA/formResponse", {
                 method: "POST",
                 body: formData,
-                mode: 'cors',
+                mode: 'no-cors',
                 headers: {
                     'Access-Control-Allow-Origin':'*'
                   }
