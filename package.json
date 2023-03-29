@@ -1,0 +1,40 @@
+{
+  "name": "rjconsulting",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm install && next dev",
+    "build": "next build",
+    "start": "next build && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/node": "18.15.5",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "firebase": "^9.18.0",
+    "next": "13.2.4",
+    "next-images": "^1.8.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.7",
+    "react-multi-carousel": "^2.8.2",
+    "tw-elements": "^1.0.0-beta1",
+    "typescript": "5.0.2",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/scrollreveal": "^0.0.8",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}
