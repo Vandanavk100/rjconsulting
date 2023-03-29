@@ -2,7 +2,7 @@ import React from 'react'
 import pricingIcon from "../images/pricinglogo.svg"
 import Image from 'next/image'
 import timeIcon from '../images/time.svg'
-import fixedIcon from '../images/fix.svg'
+import fixedIcon from '../images/Fix.svg'
 import customIcon from '../images/custom.svg'
 
 export default function Pricing() {
